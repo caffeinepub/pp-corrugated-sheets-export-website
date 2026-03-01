@@ -1,0 +1,17 @@
+{
+  "frontend/src/App.tsx": "Main application component that assembles all page sections (Navbar, Hero, AboutUs, Products, WhyChooseUs, ExportLogistics, Certifications, TrustStats, Contact, Footer) without any backend actor or React Query dependencies, making it a pure static site.",
+  "frontend/src/components/Navbar.tsx": "Sticky top navigation bar with updated brand name \"SG EXPORTERS\" in the logo/brand text, section links, and mobile menu.",
+  "frontend/src/components/Hero.tsx": "Full-screen hero section with the exact headline and subheading, two CTA buttons (Request a Quote scrolls to contact, Download Catalogue shows alert), industrial background image with dark overlay, and quick stats bar.",
+  "frontend/src/components/AboutUs.tsx": "About Us section updated to reference \"SG Exporters\" in the heading and company description paragraphs throughout.",
+  "frontend/src/components/Products.tsx": "Products section with three responsive cards for PP Corrugated Sheets, Custom Printed Sheets, and Packaging Solutions — each with product image, description, and specifications table.",
+  "frontend/src/components/WhyChooseUs.tsx": "Why Choose Us section on a Navy Blue background with five icon+text feature cards: High Durability, Competitive Pricing, Bulk Production Capacity, On-Time Export Shipping, and Quality Testing.",
+  "frontend/src/components/ExportLogistics.tsx": "Export & Logistics section highlighting Mundra Port and Nhava Sheva Port shipping, secure packaging, documentation support, global freight network, and flexible Incoterms — with icon-driven infographic layout.",
+  "frontend/src/components/Certifications.tsx": "Certifications section displaying four certification cards (ISO 9001, ISO 14001, BIS, FIEO) and a quality compliance panel with statistics and process checklist on a Navy Blue background.",
+  "frontend/src/components/TrustStats.tsx": "Trust & Stats section with animated counter statistics (countries, years, clients, tons exported) and three international client testimonials with star ratings, names, companies, and countries.",
+  "frontend/src/components/Contact.tsx": "Contact section with updated phone number (+91 9712711305), email (sgexporters8@gmail.com), WhatsApp link (wa.me/919712711305), and company name \"SG Exporters\" in the address block.",
+  "frontend/src/components/Footer.tsx": "Footer with updated brand name \"SG EXPORTERS\", phone number (+91 9712711305), email (sgexporters8@gmail.com), WhatsApp link (wa.me/919712711305), and copyright referencing \"SG Exporters\".",
+  "frontend/src/index.css": "Global styles with OKLCH color system defining Navy Blue, White, and Gold palette tokens, imports Inter and Montserrat fonts from Google Fonts, and sets smooth scroll behavior.",
+  "frontend/tailwind.config.js": "Extended Tailwind config adding navy/gold custom color tokens, Inter/Montserrat font families, gold box-shadow utility, and all existing shadcn/ui theme tokens.",
+  "frontend/index.html": "HTML entry point with updated page title referencing \"SG Exporters - PP Corrugated Sheets Export\".",
+  "frontend/src/main.tsx": "Application entry point that renders the App component in StrictMode without any backend/actor provider wrappers, ensuring no canister ID resolution is required at startup."
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Fix Deployment Error 400 - Canister ID Not Resolved",
+  "requirements": [
+    {
+      "id": "REQ-14",
+      "summary": "Resolve the 'Error 400: Canister ID Not Resolved' deployment issue by ensuring the frontend build correctly references the deployed canister ID and that all environment variables are properly injected at build time",
+      "acceptanceCriteria": [
+        "The deployed site loads without an Error 400 response",
+        "The canister ID is correctly resolved in the deployed environment",
+        "All existing sections (Hero, About Us, Products, Why Choose Us, Export & Logistics, Certifications, Trust & Stats, Contact, Footer) render correctly after the fix",
+        "The site is accessible via a valid ICP deployment URL"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/vite.config.ts",
+          "operation": "modify",
+          "description": "Ensure canister ID environment variables are correctly injected at build time by verifying the define configuration maps DFX_NETWORK and canister IDs from process.env to import.meta.env, and that the build process correctly reads dfx.json canister configuration"
+        },
+        {
+          "path": "frontend/src/hooks/useActor.ts",
+          "operation": "modify",
+          "description": "Verify that the actor creation logic correctly uses the injected canister ID environment variables and falls back appropriately during local vs production builds, ensuring the backend canister is properly resolved at runtime"
+        },
+        {
+          "path": "dfx.json",
+          "operation": "modify",
+          "description": "Validate the dfx.json configuration to ensure the frontend asset canister is correctly configured with proper source directories, dependencies on the backend canister, and correct canister type declarations"
+        },
+        {
+          "path": "frontend/src/main.tsx",
+          "operation": "modify",
+          "description": "Add runtime environment validation to log canister IDs and network configuration on app initialization, helping diagnose deployment issues and verify that environment variables are correctly propagated to the browser"
+        }
+      ]
+    }
+  ]
+}

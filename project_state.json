@@ -1,0 +1,195 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 7,
+  "summary": "A modern, professional export business website for SG Exporters, an Indian company based in Surat that exports PP Corrugated Sheets to Middle East and international markets. The site features a Navy Blue, White, and Gold color scheme with sections for Homepage (hero, CTAs), About Us, Products, Why Choose Us, Export & Logistics, Certifications, Contact, and Footer. Includes trust-building elements like testimonials, export statistics, experience badge, and Made in India badge. Contact details: +91 9712711305, sgexporters8@gmail.com.",
+  "architectural_notes": [
+    "Color palette: Navy Blue, White, and Gold accents throughout",
+    "Responsive, mobile-friendly design with SEO-optimized structure",
+    "Single-page or multi-section layout covering: Hero, About, Products, Why Choose Us, Logistics, Certifications, Contact, Footer",
+    "Company name: SG Exporters; Phone: +91 9712711305; Email: sgexporters8@gmail.com"
+  ],
+  "known_issues": [
+    "Deployment Error 400: Canister ID Not Resolved - user is requesting a new working deployment link"
+  ],
+  "isFixRequest": true,
+  "existing_features": [
+    {
+      "id": "feature-implement-a-full-page-hero-section-with-the-headline-global-exporter-of-high-quality-pp-corrugated-sheets-from-india-subheading-supplying-durable-lightweight-custom-packaging-solutions-worldwide-two-cta-buttons-request-a-quote-linking-to-the-contact-section-and-download-catalogue-triggering-a-placeholder-download-action-and-the-generated-industrial-hero-background-image-as-a-full-bleed-background-with-a-dark-overlay-for-text-legibility",
+      "title": "Implement a full-page Hero section with the headline 'Global Exporter of High-Quality PP Corrugated Sheets from India', subheading 'Supplying Durable, Lightweight & Custom Packaging Solutions Worldwide', two CTA buttons ('Request a Quote' linking to the Contact section, and 'Download Catalogue' triggering a placeholder download action), and the generated industrial hero background image as a full-bleed background with a dark overlay for text legibility.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-an-about-us-section-with-a-company-introduction-describing-the-company-as-based-in-surat-india-focused-on-quality-timely-delivery-and-international-standards-include-a-list-of-export-markets-middle-east-uae-saudi-arabia-oman-qatar-and-other-international-destinations-display-trust-badges-a-years-of-experience-badge-and-a-made-in-india-badge",
+      "title": "Implement an About Us section with a company introduction describing the company as based in Surat, India, focused on quality, timely delivery, and international standards. Include a list of export markets: Middle East, UAE, Saudi Arabia, Oman, Qatar, and other international destinations. Display trust badges: a 'Years of Experience' badge and a 'Made in India' badge.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-products-section-showcasing-three-product-cards-pp-corrugated-sheets-custom-printed-sheets-and-packaging-solutions-each-card-includes-the-generated-product-image-product-name-a-short-description-and-a-specifications-table-listing-thickness-gsm-size-and-colors-layout-must-be-clean-with-responsive-grid",
+      "title": "Implement a Products section showcasing three product cards: 'PP Corrugated Sheets', 'Custom Printed Sheets', and 'Packaging Solutions'. Each card includes the generated product image, product name, a short description, and a specifications table listing Thickness, GSM, Size, and Colors. Layout must be clean with responsive grid.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-why-choose-us-section-with-five-feature-highlights-displayed-as-icon-text-cards-high-durability-competitive-pricing-bulk-production-capacity-on-time-export-shipping-and-quality-testing",
+      "title": "Implement a 'Why Choose Us' section with five feature highlights displayed as icon+text cards: High Durability, Competitive Pricing, Bulk Production Capacity, On-Time Export Shipping, and Quality Testing.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-an-export-logistics-section-describing-shipping-via-mundra-port-and-nhava-sheva-port-secure-packaging-practices-and-international-documentation-support-display-this-information-as-a-structured-layout-with-icons-or-infographic-style-blocks",
+      "title": "Implement an Export & Logistics section describing shipping via Mundra Port and Nhava Sheva Port, secure packaging practices, and international documentation support. Display this information as a structured layout with icons or infographic-style blocks.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-certifications-section-mentioning-iso-certification-and-quality-compliance-display-certification-badges-cards-with-descriptive-text-emphasizing-adherence-to-international-standards",
+      "title": "Implement a Certifications section mentioning ISO certification and quality compliance. Display certification badges/cards with descriptive text emphasizing adherence to international standards.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-trust-stats-section-displaying-export-statistics-e-g-countries-served-tons-exported-years-in-business-as-animated-counters-or-large-number-highlights-along-with-a-client-testimonials-carousel-or-grid-with-3-placeholder-testimonials-from-international-buyers",
+      "title": "Implement a Trust & Stats section displaying export statistics (e.g., countries served, tons exported, years in business) as animated counters or large-number highlights, along with a client testimonials carousel or grid with 3 placeholder testimonials from international buyers.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-contact-section-with-a-whatsapp-floating-inline-button-linking-to-a-placeholder-whatsapp-number-an-email-inquiry-form-with-fields-for-name-email-phone-country-and-message-with-a-submit-button-a-visible-phone-number-and-an-embedded-google-maps-iframe-centered-on-surat-gujarat-india",
+      "title": "Implement a Contact section with: a WhatsApp floating/inline button linking to a placeholder WhatsApp number, an email inquiry form with fields for Name, Email, Phone, Country, and Message with a Submit button, a visible phone number, and an embedded Google Maps iframe centered on Surat, Gujarat, India.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-footer-with-quick-navigation-links-to-all-sections-a-list-of-export-destination-countries-uae-saudi-arabia-oman-qatar-kuwait-bahrain-and-others-and-social-media-icons-for-linkedin-and-whatsapp-include-copyright-text-mentioning-the-company-and-surat-india",
+      "title": "Implement a Footer with: quick navigation links to all sections, a list of export destination countries (UAE, Saudi Arabia, Oman, Qatar, Kuwait, Bahrain, and others), and social media icons for LinkedIn and WhatsApp. Include copyright text mentioning the company and Surat, India.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-consistent-navy-blue-0a1f44-white-ffffff-and-gold-c9a84c-color-scheme-across-all-sections-use-clean-corporate-sans-serif-typography-e-g-inter-or-similar-ensure-fully-responsive-mobile-friendly-layout-using-tailwind-css-breakpoints-add-a-sticky-top-navigation-bar-with-the-company-logo-placeholder-and-section-links",
+      "title": "Apply a consistent Navy Blue (#0A1F44), White (#FFFFFF), and Gold (#C9A84C) color scheme across all sections. Use clean corporate sans-serif typography (e.g., Inter or similar). Ensure fully responsive mobile-friendly layout using Tailwind CSS breakpoints. Add a sticky top navigation bar with the company logo placeholder and section links.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-all-generated-static-images-hero-background-product-images-as-assets-from-the-frontend-public-assets-generated-directory-and-reference-them-with-correct-relative-paths-in-the-frontend-components",
+      "title": "Render all generated static images (hero background, product images) as assets from the frontend/public/assets/generated directory and reference them with correct relative paths in the frontend components.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-all-occurrences-of-the-company-name-across-the-entire-site-navbar-hero-about-us-footer-page-title-and-any-other-component-with-sg-exporters",
+      "title": "Replace all occurrences of the company name across the entire site (Navbar, Hero, About Us, Footer, page title, and any other component) with 'SG Exporters'.",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-all-contact-details-across-the-site-contact-section-footer-whatsapp-button-links-and-any-other-component-to-use-phone-number-919712711305-and-email-address-sgexporters8-gmail-com",
+      "title": "Update all contact details across the site (Contact section, Footer, WhatsApp button links, and any other component) to use phone number +919712711305 and email address sgexporters8@gmail.com.",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Homepage hero section with headline, subheading, CTA buttons (Request a Quote, Download Catalogue), and industrial background image",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "About Us section: company intro, Surat-based, quality/delivery focus, export markets (Middle East, UAE, Saudi Arabia, Oman, Qatar)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Products section: PP Corrugated Sheets, Custom Printed Sheets, Packaging Solutions with specs (Thickness, GSM, Size, Colors) and product images",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Why Choose Us section: durability, pricing, bulk capacity, on-time export, quality testing",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Export & Logistics section: Mundra Port / Nhava Sheva Port, secure packaging, international documentation support",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Certifications section: ISO certification, quality compliance",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Contact section: WhatsApp button, email form, phone number, Google Maps (Surat, Gujarat)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Footer: quick links, export countries list, social media icons (LinkedIn, WhatsApp)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Trust-building elements: client testimonials, export statistics, years of experience badge, Made in India badge",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "Design: Navy Blue, White, Gold accents, corporate typography, responsive mobile-friendly, SEO optimized, professional international look",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-11",
+      "summary": "Resolve the 'Error 400: Canister ID Not Resolved' deployment issue by ensuring the frontend build correctly references the deployed canister ID. Verify that the canister ID environment variables are properly injected at build time, that the dfx.json configuration is valid, and that the frontend asset canister is correctly configured so the site loads without a 400 error.",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "PP Corrugated Sheets Export Website",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

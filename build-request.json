@@ -1,0 +1,41 @@
+{
+  "kind": "build_request",
+  "title": "Fix Deployment Error 400 - Canister ID Not Resolved",
+  "projectName": "SG Exporters",
+  "priority": "high",
+  "requirements": [
+    {
+      "id": "REQ-14",
+      "text": "Resolve the 'Error 400: Canister ID Not Resolved' deployment issue by ensuring the frontend build correctly references the deployed canister ID. Verify that the canister ID environment variables are properly injected at build time, that the dfx.json configuration is valid, and that the frontend asset canister is correctly configured so the site loads without a 400 error.",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-6",
+          "msg-8"
+        ],
+        "quotes": [
+          "Error 400 Canister ID Not Resolved pls resolved this error and generate new link"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The deployed site loads without an Error 400 response",
+        "The canister ID is correctly resolved in the deployed environment",
+        "All existing sections (Hero, About Us, Products, Why Choose Us, Export & Logistics, Certifications, Trust & Stats, Contact, Footer) render correctly after the fix",
+        "The site is accessible via a valid ICP deployment URL"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not alter any existing UI content, color scheme, or component structure",
+    "Do not change contact details (+919712711305, sgexporters8@gmail.com) or company name (SG Exporters)"
+  ],
+  "nonGoals": [
+    "Adding new sections or features",
+    "Changing the visual design or layout",
+    "Modifying backend business logic"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}
